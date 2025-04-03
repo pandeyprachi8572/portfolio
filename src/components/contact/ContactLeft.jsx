@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaGithub , FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { contactImg } from "../../assets/index";
 const ContactLeft = () => {
   return (
@@ -29,15 +29,21 @@ foundation in software and web development, with hands-on experience in building
       <div className="flex flex-col gap-4">
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
-          <span className="bannerIcon">
-            <FaFacebookF />
-          </span>
-          <span className="bannerIcon">
-            <FaTwitter />
-          </span>
-          <span className="bannerIcon">
-            <FaLinkedinIn />
-          </span>
+          <a href="https://github.com/pandeyprachi8572" target="_blank" rel="noopener noreferrer">
+                     <span className="bannerIcon">
+                       <FaGithub />
+                     </span>
+                   </a>
+                   <a href="https://x.com/PrachiP36388733" target="_blank" rel="noopener noreferrer">
+                     <span className="bannerIcon">
+                       <FaTwitter />
+                     </span>
+                   </a>
+                   <a href="https://www.linkedin.com/in/prachi-pandey-1b2b552b7" target="_blank" rel="noopener noreferrer">
+                     <span className="bannerIcon">
+                       <FaLinkedinIn />
+                     </span>
+                   </a>
         </div>
       </div>
     </div>

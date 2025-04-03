@@ -25,7 +25,7 @@ const Skills = () => {
                 transition={{ duration: 0.5, delay: 0.5 }}
                 className="w-full h-full from-blue-600 via-pink-500 to-red-500 rounded-md relative"
               >
-                <span className="absolute -top-7 right-0">100%</span>
+                <span className="absolute -top-7 right-0"></span>
               </motion.span>
             </span>
           </div>
@@ -164,3 +164,5 @@ const Skills = () => {
 }
 
 export default Skills
+
+

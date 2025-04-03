@@ -1,5 +1,5 @@
-.image{
-    width: 80px;
+.images{
+    width: 50%;
     height: 80px;
     border-radius: 100px;
     margin-top: 5%;
@@ -7,4 +7,10 @@
 Title{
     font-weight: bold;
     font-weight: black;
+}
+.imgs{
+    width: 70%;
+    height: 60%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }

@@ -15,7 +15,7 @@ module.exports = {
       },
       fontFamily: {
         bodyFont: ["Poppins", "sans-serif"],
-        titleFont: ["Montserrat", "sans-serif"],
+       
       },
       colors: {
         bodyColor: "white",

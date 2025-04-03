@@ -17,7 +17,7 @@ return (
 <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
           {navLinksdata.map(({ _id, title, link }) => (
             <li
-              className="text-base  font-bold tracking-wide cursor-pointer hover:text-designColor duration-300"
+              className="text-base text-gray-700  font-bold tracking-wide cursor-pointer hover:text-designColor duration-300"
               key={_id}
             >
               <Link
@@ -35,7 +35,7 @@ return (
         </ul>
         <span
           onClick={() => setShowMenu(!showMenu)}
-          className="text-xl mdl:hidden bg-black w-10 h-10 inline-flex items-center justify-center rounded-full text-designColor cursor-pointer"
+          className="text-xl mdl:hidden  w-10 h-10 inline-flex items-center justify-center rounded-full text-designColor cursor-pointer"
         >
           <FiMenu />
         </span>
@@ -45,9 +45,9 @@ return (
               <div>
                 <img className="image" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
+                Highly motivated and detail-oriented Computer Science graduate currently interning in Web Development. Possesses a strong 
+foundation in software and web development, with hands-on experience in building projects like Desk Automation. Actively 
+seeking opportunities to leverage academic knowledge and technical skills in a dynamic and challenging environment.
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
@@ -71,10 +71,10 @@ return (
                 ))}
               </ul>
               <div className="flex flex-col gap-4">
-                <h2 className="text-base uppercase font-titleFont mb-4">
+                <h2 className="text-base text-gray-400 uppercase font-titleFont mb-4">
                   Find me in
                 </h2>
-                <div className="flex gap-4">
+                <div className="flex gap-4 text-white">
                   <span className="bannerIcon">
                     <FaFacebookF />
                   </span>

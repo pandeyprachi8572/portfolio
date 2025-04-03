@@ -34,9 +34,7 @@ const Media = () => {
             <span className="bannerIcon">
               <SiTailwindcss />
             </span>
-            <span className="bannerIcon">
-              <SiFigma />
-            </span>
+      
           </div>
         </div>
       </div>

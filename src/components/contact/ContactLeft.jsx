@@ -23,7 +23,7 @@ foundation in software and web development, with hands-on experience in building
           Phone: <span className="text-lightText">+6392043940</span>
         </p>
         <p className="text-base  flex items-center gap-2">
-          Email: <span className="text-lightText">prachipandit@gmail.com</span>
+          Email: <span className="text-lightText">prachipandit500@gmail.com</span>
         </p>
       </div>
       <div className="flex flex-col gap-4">

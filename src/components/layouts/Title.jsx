@@ -1,5 +1,4 @@
 import React from 'react'
-
 const Title = ({title, des}) => {
   return (
     <div className="flex flex-col gap-4 font-titleFont mb-14">
@@ -10,5 +9,4 @@ const Title = ({title, des}) => {
     </div>
   );
 }
-
 export default Title

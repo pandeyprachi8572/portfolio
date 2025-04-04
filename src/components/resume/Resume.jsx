@@ -1,12 +1,9 @@
-
-
 import React, {  useState } from 'react'
 import Title from '../layouts/Title';
 import Education from './Education';
 import Skills from './Skills';
 import Achievement from './Achievement';
-import Experience from "./Experience"
-
+import Experience from "./Experience";
 const Resume = () => {
    const [educationData, setEducationData] = useState(true);
    const [skillData, setSkillData] = useState(false);
@@ -87,5 +84,4 @@ const Resume = () => {
     </section>
   );
 }
-
 export default Resume

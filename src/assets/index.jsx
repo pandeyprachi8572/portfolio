@@ -7,6 +7,11 @@ import projectFour from "./images/projects/projectFour.png";
 import projectFive from './images/projects/projectFive.png';
 import projectSix from './images/projects/projectSix.png'
 import contactImg from "./images/contact/contactImg.png";
+import Nowgray from "./images/projects/Nowgray.png";
+import react from "./images/projects/react.png";
+import javascript from "./images/projects/javascript.png";
+import css from "./images/projects/css.png";
+
 export {
   logo,
   bannerImg,
@@ -16,5 +21,9 @@ export {
   projectFour,
   projectFive,
   projectSix,
-  contactImg
+  contactImg,
+  Nowgray,
+  css,
+  react,
+  javascript,
 };
